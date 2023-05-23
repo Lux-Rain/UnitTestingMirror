@@ -8,6 +8,9 @@ jobs:
     name: UNIT TEST PROJECT
     runs-on: ubuntu-latest
     steps:
+    # Checkout
+      - name: Checkout repository
+        uses: actions/checkout@v2
     #Cache
       - name: Cache
         uses: actions/cache@v2
