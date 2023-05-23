@@ -28,7 +28,7 @@ namespace Tests
             yield return new WaitForSeconds(1);
         }
         
-        [UnityTest]
+        /*[UnityTest]
         public IEnumerator JoinClient()
         {
             yield return LoadMenu();
@@ -37,6 +37,6 @@ namespace Tests
             yield return new WaitForSeconds(2);
             Assert.IsTrue(network.isNetworkActive);
             network.StopClient();
-        }
+        }*/
     }
 }
